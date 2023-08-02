@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>App web registro de presença</title>
+   
+</head>
+<body>
+    <h3 style=" margin-top: 20px; margin-bottom: 20px;"> Lista de alunos em minha sala</h3>
+    <div>
+      <span>1</span>
+      <input type="text" placeholder="Nome do aluno" id="nomeAluno1">
+    </div>
+
+    <div>
+        <span>2</span>
+        <input type="text" placeholder="Nome do aluno" id="nomeAluno2">
+      </div>
+
+    <div>
+        <span>3</span>
+        <input type="text" placeholder="Nome do aluno" id="nomeAluno3">
+    </div>
+
+    <div>
+        <span>4</span>
+        <input type="text" placeholder="Nome do aluno" id="nomeAluno4">
+    </div>
+
+    <button onclick="submit()" id="buttonSubmit">Enviar</button>
+    
+    <div id="displayName">
+
+    </div>
+
+    <div id="displayNameComAspas">
+
+    </div>
+
+    <div id="displayNameSemAspas">
+
+    </div>
+    <button onclick="sorting()" id="sortButton">Organizar</button>
+    <script src="app.js"></script>
+</body>
+</html>
